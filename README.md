@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Figures/biology.png" alt="Logo" width="80" height="80">
+    <img src="Figures/biology_icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Han Lab Cuasal Project Name</h3>
