@@ -86,13 +86,12 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <br>
 <div align="center">
-  <img src="Figures/Flowchart.jpg.jpeg" width="70%" title="Flowchart">
+  <img src="Figures/Flowchart.jpg" width="70%" title="Flowchart">
 </div>
 
 Causal relationship identification is a fundamental and complex research challenge that spans multiple disciplines, including biology, epidemiology, economics, and philosophy. Various scoring techniques and independence tests, such as local scores (e.g., Degenerate Gaussian and Bayesian Information Criterion) and independence tests (e.g., Fisher's Z), have been employed in causality estimation. However, these local scores often excel in specific data types or application areas but falter in others, limiting their ability to capture the complexity and heterogeneity of underlying causal mechanisms. For instance, a method may perform well on linear relationships or continuous variables but struggle with discrete variables or non-linear relationships.
 Real-world observational datasets, particularly those generated in complex biological systems, often contain diverse data types and relationships, making it essential to develop a more comprehensive approach. To address this challenge, we propose a novel causal estimation framework that leverages the powerful classification capabilities of deep neural networks to identify causal patterns in pairwise relationships. Our framework integrates multiple local causality estimation scores, independence tests, and variable attributes, allowing it to capture a wide range of causal mechanisms.
 To ensure the framework's robustness and generalizability, we incorporate a diverse range of simulation data and 10 curated real-world datasets into the training procedure. Furthermore, our framework is designed to be extensible, enabling users to easily integrate their own data and additional scores and tests. Our validation results demonstrate that our framework outperforms existing methods in terms of estimation accuracy and precision on both simulation data and real-world biological datasets. By providing a more comprehensive and adaptable approach to causal relationship identification, our framework has the potential to advance research in various fields and improve our understanding of complex biological systems.
-![image](https://github.com/user-attachments/assets/70417fc2-1de2-48ce-9b5a-6b171c451412)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
