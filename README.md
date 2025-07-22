@@ -116,7 +116,7 @@ The following is a list of frameworks/libraries used in this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+The following is an example of how to install XXX, generate a variety of simulation data types, collect causal score & tests, train the model, and run causal estimation.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
