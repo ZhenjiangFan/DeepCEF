@@ -166,9 +166,13 @@ _Below is an example of how you can instruct your audience on installing and set
 ### Generate simulation data
 
 Generate linear, mixed-type, and nonlinear data using the following function:
-* npm
-  ```sh
+  ```py
   SimulationData.generate(…)
+  ```
+
+For each dataset, collect scores, tests, and attributes using the following function:
+  ```py
+  CollectScores.collect_scores(…)
   ```
 
 ## Causal estimation
