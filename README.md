@@ -157,7 +157,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 
 ## Model training
-
+If you would like to use your data to train the model, please follow the steps in the diagram.
 <br>
 <div align="center">
   <img src="Figures/GitHubModelTraining.png" width="70%" title="ModelTraining">
@@ -173,6 +173,14 @@ Generate linear, mixed-type, and nonlinear data using the following function:
 For each dataset, collect scores, tests, and attributes using the following function:
   ```py
   CollectScores.collect_scores(…)
+  ```
+After collecting score data for your data, the next step is to merge the newly generated score data using the following function:
+  ```py
+  DataMerger.merge_scores(…)
+  ```
+After merging the score data, the next step is to train the model using the following function:
+  ```py
+  CausalModel.train(…)
   ```
 
 ## Causal estimation
