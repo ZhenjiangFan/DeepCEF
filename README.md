@@ -165,32 +165,54 @@ If you would like to use your data to train the model, please follow the steps i
 
 ### Generate simulation data
 
-Generate linear, mixed-type, and nonlinear data using the following function:
+1. Generate linear, mixed-type, and nonlinear data using the following function:
   ```py
   SimulationData.generate(…)
   ```
 
-For each dataset, collect scores, tests, and attributes using the following function:
+2. For each dataset, collect scores, tests, and attributes using the following function:
   ```py
   CollectScores.collect_scores(…)
   ```
-After collecting score data for your data, the next step is to merge the newly generated score data using the following function:
+3. After collecting score data for your data, the next step is to merge the newly generated score data using the following function:
   ```py
   DataMerger.merge_scores(…)
   ```
-After merging the score data, the next step is to train the model using the following function:
+4. After merging the score data, the next step is to train the model using the following function:
   ```py
   CausalModel.train(…)
   ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Causal estimation
+
+The following diagram illustrates the steps of estimating causal relations from a data matrix.
 
 <br>
 <div align="center">
   <img src="Figures/GitHubCausalEstimation.png" width="70%" title="CausalEstimation">
 </div>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. The first step is to prepare your data using the following function. For instance, imputing the data if there are missing values.
+  ```py
+  RealWorldData.prepare(…)
+  ```
+
+2. The next step is to invoke the following function to collect scores, tests, and attributes for your data:
+  ```py
+  CollectScores.collect_scores(…)
+  ```
+3. After the score data has been generated, the next step is to estimate causal relations by passing the score data to the trained model:
+  ```py
+  CausalModel.estimate(…)
+  ```
+4. Sometimes, the estimated directed graph may contain bidirectional edges or cycles. In the literature, it is required that a causal estimation method should not contain any cycles. Therefore, the next step is to remove bidirectional edges and cycles using the following function, which returns a directed acyclic graph (DAG).
+   ```py
+  CausalModel.dag(…)
+  ```
+
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
