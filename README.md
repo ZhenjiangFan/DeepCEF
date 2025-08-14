@@ -194,7 +194,22 @@ The following diagram illustrates the steps of estimating causal relations from 
   <img src="Figures/GitHubCausalEstimation.png" width="70%" title="CausalEstimation">
 </div>
 
-
+1. The first step is to prepare your data using the following function. For instance, imputing the data if there are missing values.
+  ```py
+  RealWorldData.prepare(…)
+  ```
+2. The next step is to invoke the following function to collect scores, tests, and attributes for your data:
+  ```py
+  CollectScores.collect_scores(…)
+  ```
+3. After the score data has been generated, the next step is to estimate causal relations by passing the score data to the trained model.
+  ```py
+  CausalModel.estimate(…)
+  ```
+4. Sometimes, the estimated directed graph may contain bidirectional edges or cycles. In the literature, it is required that a causal estimation method should not contain any cycles. Therefore, the next step is to remove bidirectional edges and cycles using the following function, which returns a directed acyclic graph (DAG).
+  ```py
+  CausalModel.dag(…)
+  ```
 
 
 
