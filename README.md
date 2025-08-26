@@ -177,7 +177,7 @@ If you would like to use your data to train the model, please follow the steps i
   python CollectScores.py --file_path SimulationData/Mixed/ --input_file mixed_sim_data.csv --graph_file mixed_sim_graph_edges.csv
   ```
   The output file is a data table, named "score_test_result.csv", containing score data, where the columns represent scores, tests, and relation attributes.
-  <br />
+  <br/><br/>
 3. After collecting score data for your data, the next step is to merge the newly generated score data using the following function:
   ```py
   DataMerger.merge_scores(…)
