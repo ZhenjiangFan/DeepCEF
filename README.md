@@ -171,8 +171,11 @@ If you would like to use your data to train the model, please follow the steps i
   ```
 
 2. For each dataset, collect scores, tests, and attributes using the following function:
-  ```py
-  CollectScores.collect_scores(…)
+  ```sh
+  python CollectScores.py --file_path [file path to the input data matrix file] --input_file [the input data matrix file] --graph_file [the graph file containing truth causal edges]
+  # The following is an example. Please note that the argument "--graph_file" is optional.
+  python CollectScores.py --file_path SimulationData/Mixed/ --input_file mixed_sim_data.csv --graph_file mixed_sim_graph_edges.csv
+  #The output file is a data table containing score data where columns are scores, tests, and relation attributes.
   ```
 3. After collecting score data for your data, the next step is to merge the newly generated score data using the following function:
   ```py
