@@ -214,7 +214,7 @@ The following diagram illustrates the steps of estimating causal relations from 
   ```py
   CausalModel.dag(…)
   ```
-
+A directed acyclic graph in the 'dot' format, which is named as "estimated_causal_graph.dot", will be saved in the same directory as the input data.
 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
