@@ -121,11 +121,20 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Here is a list of the libraries and packages required for this framework.
+* JDK
+* jpype1
+* pygraphviz
+* NPEET
+* seaborn
+* tensorflow
+* nvidia
+* cuda-nvcc
+* scikit-learn
+* pandas
+* numpy
+* networkx
+* keras
 
 ### Installation
 
