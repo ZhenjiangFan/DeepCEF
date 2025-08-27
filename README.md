@@ -116,8 +116,7 @@ The following is a list of frameworks/libraries used in this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The following is an example of how to install XXX, generate a variety of simulation data types, collect causal score & tests, train the model, and run causal estimation.
-To get a local copy up and running follow these simple example steps.
+This framework is implemented in Python, so it requires a Python environment. Additionally, a Java environment is needed for generating simulation data since we utilize the causality package Tetrad, which is written in Java. Many local scores are retrieved from the causal package Causal-learn. The deep learning models used in this framework are developed using TensorFlow and Keras. It is also recommended to have a CUDA environment for optimal performance.
 
 ### Prerequisites
 
@@ -134,7 +133,11 @@ Here is a list of the libraries and packages required for this framework.
 * pandas
 * numpy
 * networkx
+* matplotlib
 * keras
+* causal-learn
+* statsmodels
+* scipy
 
 ### Installation
 
