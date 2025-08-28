@@ -103,6 +103,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 * [![CUDA][https://developer.nvidia.com/cuda-toolkit]][CUDA-url]
 * [![Tensorflow][tensorflow.org]][Tensorflow-url]
 * [![Keras][keras.io]][Keras-url]
+* [![Scikit-learn][scikit-learn.org]][scikit-learn-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -344,4 +345,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Tensorflow-url]: https://www.tensorflow.org
 [keras.io]: https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff
 [Keras-url]: https://keras.io
+[scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
+[Scikit-learn-url]: https://scikit-learn.org
 
