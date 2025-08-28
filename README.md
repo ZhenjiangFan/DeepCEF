@@ -100,7 +100,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 
 * [![Java][Java.com]][Java-url]
 * [![Python][Python.org]][React-url]
-* [![CUDA][[Vue.js](https://developer.nvidia.com/cuda-toolkit)]][CUDA-url]
+* [![CUDA][https://developer.nvidia.com/cuda-toolkit]][CUDA-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
