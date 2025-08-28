@@ -101,7 +101,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 * [![Java][Java.com]][Java-url]
 * [![Python][Python.org]][React-url]
 * [![CUDA][https://developer.nvidia.com/cuda-toolkit]][CUDA-url]
-* [![Angular][Angular.io]][Angular-url]
+* [![Tensorflow][tensorflow.org]][Tensorflow-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
@@ -358,4 +358,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Python-url]: https://www.python.org
 [https://developer.nvidia.com/cuda-toolkit]: https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff
 [CUDA-url]: https://www.python.org
+[tensorflow.org]: https://img.shields.io/badge/TensorFlow-ff8f00?logo=tensorflow&logoColor=white
+[Tensorflow-url]: https://www.tensorflow.org
 
