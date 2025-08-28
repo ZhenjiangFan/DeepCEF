@@ -100,7 +100,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 
 The following is a list of frameworks/libraries used in this project.
 
-* [![Next][Next.js]][Next-url]
+* [![Next][java.com]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
