@@ -100,7 +100,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 
 * [![Java][Java.com]][Java-url]
 * [![Python][Python.org]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* [![CUDA][[Vue.js](https://developer.nvidia.com/cuda-toolkit)]][CUDA-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
@@ -356,4 +356,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Java-url]: https://www.java.com
 [Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org
+[https://developer.nvidia.com/cuda-toolkit]: https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff
+[CUDA-url]: https://www.python.org
 
