@@ -99,7 +99,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 ### Built With
 
 * [![Java][Java.com]][Java-url]
-* [![React][React.js]][React-url]
+* [![Python][Python.org]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -354,4 +354,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com
 [Java.com]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://www.java.com
+[Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org
 
