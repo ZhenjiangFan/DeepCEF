@@ -151,7 +151,7 @@ Here is a list of the libraries and packages required for this framework.
    #Compiler for CUDA applications.
    conda install -c nvidia cuda-nvcc
   ```
-*Other Python packages (causal-learn, seaborn, tensorflow, scikit-learn, pandas, numpy, networkx, matplotlib, keras, statsmodels, scipy) are listed in a requirements.txt file. To install them, please use the following command:
+* Other Python packages (causal-learn, seaborn, tensorflow, scikit-learn, pandas, numpy, networkx, matplotlib, keras, statsmodels, scipy) are listed in a requirements.txt file. To install them, please use the following command:
 ```sh
    pip install -r requirements.txt
 ```
