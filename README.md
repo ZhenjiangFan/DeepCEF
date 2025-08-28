@@ -99,7 +99,7 @@ To ensure the framework's robustness and generalizability, we incorporate a dive
 ### Built With
 
 * [![Java][Java.com]][Java-url]
-* [![Python][Python.org]][React-url]
+* [![Python][Python.org]][Python-url]
 * [![CUDA][https://developer.nvidia.com/cuda-toolkit]][CUDA-url]
 * [![Tensorflow][tensorflow.org]][Tensorflow-url]
 * [![Keras][keras.io]][Keras-url]
