@@ -126,12 +126,12 @@ Here is a list of the libraries and packages required for this framework.
   #For instance, the following command line is used for installing the default Java Development Kit (JDK) available in the system's repositories.
   sudo apt install default-jdk
   ```
-* jpype1
+* [jpype1](https://pypi.org/project/jpype1/)
   ```sh
   #JPype is a Python package used for providing full access to Java APIs from within Python.
   pip install jpype1
   ```
-* pygraphviz
+* [pygraphviz](https://pygraphviz.github.io/)
   ```sh
   #PyGraphviz is a Python package used for the Graphviz graph layout and visualization.
   sudo apt-get install graphviz graphviz-dev
@@ -139,7 +139,7 @@ Here is a list of the libraries and packages required for this framework.
   #Or use Conda
   conda install pygraphviz
   ```
-* NPEET
+* [NPEET](https://github.com/gregversteeg/NPEET)
   ```sh
   #The NPEET package contains Python code implementing several entropy estimation functions for both discrete and continuous variables.
   git clone https://github.com/gregversteeg/NPEET.git
