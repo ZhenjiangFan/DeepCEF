@@ -123,38 +123,38 @@ This framework is implemented in Python, so it requires a Python environment. Ad
 Here is a list of the libraries and packages required for this framework.
 * JDK
   ```sh
-   #For instance, the following command line is used for installing the default Java Development Kit (JDK) available in the system's repositories.
-   sudo apt install default-jdk
-   ```
+  #For instance, the following command line is used for installing the default Java Development Kit (JDK) available in the system's repositories.
+  sudo apt install default-jdk
+  ```
 * jpype1
   ```sh
-   #JPype is a Python package used for providing full access to Java APIs from within Python.
-   pip install jpype1
+  #JPype is a Python package used for providing full access to Java APIs from within Python.
+  pip install jpype1
   ```
 * pygraphviz
   ```sh
-   #PyGraphviz is a Python package used for the Graphviz graph layout and visualization.
-   sudo apt-get install graphviz graphviz-dev
-   pip install pygraphviz
-   #Or use Conda
-   conda install pygraphviz
+  #PyGraphviz is a Python package used for the Graphviz graph layout and visualization.
+  sudo apt-get install graphviz graphviz-dev
+  pip install pygraphviz
+  #Or use Conda
+  conda install pygraphviz
   ```
 * NPEET
   ```sh
-   #The NPEET package contains Python code implementing several entropy estimation functions for both discrete and continuous variables.
-   git clone https://github.com/gregversteeg/NPEET.git
-   cd NPEET
-   pip install .
+  #The NPEET package contains Python code implementing several entropy estimation functions for both discrete and continuous variables.
+  git clone https://github.com/gregversteeg/NPEET.git
+  cd NPEET
+  pip install .
   ```
 * nvidia & cuda-nvcc
   ```sh
-   #Compiler for CUDA applications.
-   conda install -c nvidia cuda-nvcc
+  #Compiler for CUDA applications.
+  conda install -c nvidia cuda-nvcc
   ```
 * Other Python packages (causal-learn, seaborn, tensorflow, scikit-learn, pandas, numpy, networkx, matplotlib, keras, statsmodels, scipy) are listed in a requirements.txt file. To install them, please use the following command:
-```sh
-   pip install -r requirements.txt
-```
+  ```sh
+  pip install -r requirements.txt
+  ```
 
 ### Installation
 
