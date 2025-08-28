@@ -34,10 +34,10 @@
     <img src="Figures/biology_icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Han Lab Cuasal Project Name</h3>
+  <h3 align="center">DeepCEF: A Deep Causal Estimation Framework for Complex Biological Systems Integrating Local Scores, Independence Tests, and Relation Attributes</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome causal relation estimation framework!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
