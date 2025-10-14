@@ -1,0 +1,8 @@
+Diabetes
+
+
+Good datasets:
+https://www.kaggle.com/datasets/serhathoca/anemia-disease
+https://www.kaggle.com/datasets/thedevastator/analysis-of-coronary-artery-disease-risk-factors
+https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset
+https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset

@@ -1,0 +1,18 @@
+Cause,Effect
+eyesight(left),age
+hearing(left),age
+hearing(right),age
+waist(cm),weight(kg)
+weight(kg),HDL
+waist(cm),triglyceride
+eyesight(left),eyesight(right)
+hearing(right),eyesight(right)
+systolic,fasting blood sugar
+hemoglobin,relaxation
+Urine protein,fasting blood sugar
+Gtp,triglyceride
+hemoglobin,serum creatinine
+smoking,hemoglobin
+ALT,AST
+AST,Gtp
+smoking,dental caries

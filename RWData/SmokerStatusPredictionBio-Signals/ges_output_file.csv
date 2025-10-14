@@ -1,0 +1,53 @@
+Cause,Effect
+age,height(cm)
+age,weight(kg)
+age,waist(cm)
+age,eyesight(left)
+age,eyesight(right)
+hearing(left),age
+hearing(right),age
+age,systolic
+relaxation,age
+age,fasting blood sugar
+age,serum creatinine
+age,dental caries
+weight(kg),height(cm)
+waist(cm),height(cm)
+height(cm),eyesight(left)
+Cholesterol,height(cm)
+height(cm),hemoglobin
+height(cm),serum creatinine
+height(cm),smoking
+waist(cm),weight(kg)
+relaxation,weight(kg)
+HDL,weight(kg)
+systolic,waist(cm)
+waist(cm),fasting blood sugar
+waist(cm),triglyceride
+HDL,waist(cm)
+waist(cm),LDL
+waist(cm),hemoglobin
+waist(cm),AST
+waist(cm),Gtp
+eyesight(left),eyesight(right)
+relaxation,systolic
+relaxation,Cholesterol
+relaxation,hemoglobin
+triglyceride,fasting blood sugar
+fasting blood sugar,Urine protein
+Gtp,fasting blood sugar
+triglyceride,Cholesterol
+HDL,Cholesterol
+LDL,Cholesterol
+HDL,triglyceride
+triglyceride,hemoglobin
+triglyceride,Gtp
+triglyceride,smoking
+HDL,ALT
+HDL,Gtp
+hemoglobin,serum creatinine
+hemoglobin,smoking
+AST,ALT
+Gtp,AST
+smoking,Gtp
+smoking,dental caries

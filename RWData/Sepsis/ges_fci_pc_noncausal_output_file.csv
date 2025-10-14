@@ -1,0 +1,9 @@
+Cause,Effect,Label
+BaseExcess,HCO3,1
+pH,FiO2,1
+Creatinine,BUN,1
+Platelets,Fibrinogen,1
+DBP,SaO2,0
+SaO2,DBP,0
+HR,SaO2,0
+SaO2,HR,0

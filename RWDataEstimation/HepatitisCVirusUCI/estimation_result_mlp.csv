@@ -1,0 +1,51 @@
+,Estimation
+Age _causes_RNA EOT,1
+RNA EOT_causes_Age ,1
+Age _causes_RNA EF,1
+RNA EF_causes_Age ,1
+BMI_causes_HGB,0
+HGB_causes_BMI,0
+BMI_causes_ALT 12,1
+ALT 12_causes_BMI,1
+BMI_causes_Baselinehistological staging,0
+Baselinehistological staging_causes_BMI,0
+WBC_causes_ALT 1,1
+ALT 1_causes_WBC,1
+RBC_causes_Plat,1
+Plat_causes_RBC,1
+RBC_causes_ALT 36,1
+ALT 36_causes_RBC,1
+RBC_causes_ALT 48,1
+ALT 48_causes_RBC,1
+RBC_causes_RNA 12,1
+RNA 12_causes_RBC,1
+HGB_causes_ALT 48,1
+ALT 48_causes_HGB,1
+HGB_causes_RNA Base,1
+RNA Base_causes_HGB,1
+HGB_causes_RNA 12,1
+RNA 12_causes_HGB,1
+AST 1_causes_RNA EOT,1
+RNA EOT_causes_AST 1,1
+ALT 1_causes_ALT 12,1
+ALT 12_causes_ALT 1,1
+ALT 1_causes_ALT 24,1
+ALT 24_causes_ALT 1,1
+ALT4_causes_RNA EOT,1
+RNA EOT_causes_ALT4,1
+ALT 24_causes_ALT 48,1
+ALT 48_causes_ALT 24,1
+ALT 24_causes_Baseline histological Grading,1
+Baseline histological Grading_causes_ALT 24,0
+ALT 36_causes_ALT after 24 w,1
+ALT after 24 w_causes_ALT 36,1
+RNA 4_causes_RNA EF,1
+RNA EF_causes_RNA 4,1
+RNA 12_causes_RNA EOT,1
+RNA EOT_causes_RNA 12,1
+RNA 12_causes_RNA EF,1
+RNA EF_causes_RNA 12,1
+RNA EOT_causes_RNA EF,1
+RNA EF_causes_RNA EOT,1
+Baseline histological Grading_causes_Baselinehistological staging,0
+Baselinehistological staging_causes_Baseline histological Grading,0

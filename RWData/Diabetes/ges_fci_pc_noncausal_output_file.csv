@@ -1,0 +1,5 @@
+Cause,Effect,Label
+age,pres,1
+mass,skin,1
+preg,skin,0
+skin,preg,0

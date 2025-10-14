@@ -1,0 +1,20 @@
+Cause,Effect
+eyesight(left),age
+eyesight(right),age
+hearing(left),age
+hearing(right),age
+hemoglobin,height(cm)
+height(cm),smoking
+weight(kg),HDL
+eyesight(left),eyesight(right)
+relaxation,systolic
+systolic,fasting blood sugar
+relaxation,triglyceride
+relaxation,hemoglobin
+relaxation,Gtp
+Gtp,fasting blood sugar
+Gtp,triglyceride
+serum creatinine,hemoglobin
+AST,Urine protein
+AST,ALT
+ALT,Gtp

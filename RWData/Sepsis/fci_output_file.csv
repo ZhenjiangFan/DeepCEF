@@ -1,0 +1,10 @@
+Cause,Effect
+SBP,Age
+BaseExcess,HCO3
+BaseExcess,pH
+HCO3,PaCO2
+pH,FiO2
+PaCO2,pH
+Creatinine,BUN
+Creatinine,Phosphate
+Platelets,Fibrinogen

@@ -1,0 +1,5 @@
+Cause,Effect,Label
+waist(cm),weight(kg),1
+waist(cm),triglyceride,1
+eyesight(left),eyesight(right),1
+smoking,dental caries,1

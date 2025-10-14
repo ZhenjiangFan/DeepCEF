@@ -1,0 +1,3 @@
+https://www.bcgsc.ca/downloads/nanopore_pog/
+https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00293-3#sec-4
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270257

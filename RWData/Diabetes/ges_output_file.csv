@@ -1,0 +1,12 @@
+Cause,Effect
+preg,class
+plas,insu
+plas,class
+mass,pres
+age,pres
+skin,insu
+mass,skin
+age,skin
+insu,pedi
+class,mass
+class,pedi

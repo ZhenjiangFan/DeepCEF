@@ -1,0 +1,15 @@
+Cause,Effect
+age,hearing(right)
+height(cm),weight(kg)
+height(cm),eyesight(left)
+waist(cm),weight(kg)
+weight(kg),HDL
+waist(cm),triglyceride
+eyesight(left),eyesight(right)
+hearing(left),hearing(right)
+systolic,fasting blood sugar
+hemoglobin,relaxation
+Gtp,triglyceride
+smoking,hemoglobin
+ALT,AST
+smoking,dental caries
